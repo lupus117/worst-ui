@@ -45,7 +45,12 @@ function generate() {
 }
 
 document.getElementById("enterHere").onchange = function() {
-    document.getElementById("rangeseer").textContent = document.getElementById("enterHere").value;
+    var tmpval = document.getElementById("enterHere").value.toString()
+    tmpvallength = tmpval.length;
+    for (var i = 0; i < 8 - tmpvallength; i++) {
+        tmpval = "0" + tmpval;
+    }
+    document.getElementById("rangeseer").textContent = tmpval;
 }
 
 document.getElementById('submitNumber').onclick = function() {
@@ -53,7 +58,11 @@ document.getElementById('submitNumber').onclick = function() {
     document.getElementById('enterHere').value = "";
     document.getElementById("rangeseer").textContent = "";
     var numtostring = num.toString();
+    var ntslength = numtostring.length;
     var result = ""
+    for (var i = 0; i < 8 - ntslength; i++) {
+        numtostring = "0" + numtostring;
+    }
 
     for (let i = 0; i < numtostring.length && i < 8; i++) {
 
