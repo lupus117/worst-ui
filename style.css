@@ -3,10 +3,18 @@
     text-shadow: 2px 5px 0px rgb(247, 165, 165);
 }
 
+body {
+    text-align: center;
+}
+
 h1,
 h2,
 h3 {
     text-align: center;
+}
+
+blockquote {
+    text-align: left;
 }
 
 .card {
