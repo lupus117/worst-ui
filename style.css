@@ -3,9 +3,15 @@
     text-shadow: 2px 5px 0px rgb(247, 165, 165);
 }
 
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
 .card {
     width: 75%;
-    margin-left: 10px;
+    margin-left: 12.5%;
     border: 1px solid;
     background-color: rgba(255, 177, 177, 0.534);
     border-color: rgb(255, 177, 177);

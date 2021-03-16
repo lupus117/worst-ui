@@ -2,25 +2,26 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Best phone number validation</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="sakura-vader.css">
-
-
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="sakura-vader.css" />
 </head>
 
 <body>
     <h1 class="redOnHover">Enter your phone number to continue</h1>
     <h3>To submit your number follow the instructions below</h3>
-    <p>enjoy</p>
+    <h3>Enjoy!</h3>
+
     <div class="card">
         <h2>Cypher</h2>
-        <p>to enter your number you must consult the table and each time go down a row, starting from nr 1.</p>
+        <p>
+            Locate your first digit of phone number on the first row and see which columb it is in, that is the first digit of the cypher. Then consult the second row for your second digit and so on.
+        </p>
         <div class="Cypher">
-            <table style="width:100%">
+            <table style="width: 100%">
                 <tr>
                     <th>[0]</th>
                     <th>[1]</th>
@@ -44,7 +45,6 @@
                     <td id="07">00</td>
                     <td id="08">00</td>
                     <td id="09">00</td>
-
                 </tr>
                 <tr>
                     <td id="10">00</td>
@@ -130,17 +130,16 @@
                     <td id="78">00</td>
                     <td id="79">00</td>
                 </tr>
-
             </table>
         </div>
-        <input type="range" min="0" max="99999999" class="fill" id="enterHere">
+        <input type="range" min="0" max="99999999" class="fill" id="enterHere" />
         <p id="rangeseer"></p>
-        <button id="submitNumber" class="fill">Submit the number here</button><br>
-        <h2 id="outputNum"></h2>
+        <button id="submitNumber" class="fill">Submit the number here</button
+      ><br />
+      <h2 id="outputNum"></h2>
     </div>
     <blockquote>Sieze the day!</blockquote>
 
     <script src="./main.js"></script>
-</body>
-
+  </body>
 </html>
